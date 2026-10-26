@@ -3,7 +3,7 @@
 An unofficial decompilation and C source reconstruction of the firmware for **Fixel's internal optical drive emulator
 (ODE) for the Panasonic 3DO FZ-1**, hardware **Rev B** (Raspberry Pi RP2040 + Lattice iCE5LP4K FPGA).
 Rev A was a 2020 prototype built around an Infineon XMC4700 instead of the RP2040; nothing here applies to it
-[doc: a photo of a Rev A board].
+<img width="1100" height="493" alt="fixel_ode_fz1_prototype_e74f80e7-4d8b-4a29-8c88-d3a0f723610c_1100x__37156" src="https://github.com/user-attachments/assets/eee8bd28-1d24-4189-8f40-0db1c34f5d3b" />
 
 The target is firmware `update.ode` "rev 1.0" (program `piode2` v0.1, built Aug 20 2022), the latest official FZ-1 ODE
 firmware. No source code for it has been published, so this project rebuilds it from the binary.
