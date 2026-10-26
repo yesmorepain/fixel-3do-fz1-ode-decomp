@@ -1,0 +1,4 @@
+{
+  "append": [ { "file": "patch.bin", "at": "0x10033a00" } ],
+  "bl":     [ { "site": "0x1001057a", "target": "0x10033a01" } ]
+}

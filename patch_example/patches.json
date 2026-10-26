@@ -1,0 +1,4 @@
+{
+  "append": [ { "file": "patch.bin", "at": "0x10033a00" } ],
+  "opcode": [ { "op": "0xd2", "handler": "0x10033a01" } ]
+}

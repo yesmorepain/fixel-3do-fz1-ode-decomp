@@ -1,0 +1,1 @@
+TinyUSB 0.12.0 (hathach/tinyusb 4bfab30c02279a0530e1a56f4a7c539f2d35a293, as bundled with Pico SDK 1.3.0). src/portable/raspberrypi/rp2040 is modified to match piode2; see git diff / README.

@@ -1,0 +1,25 @@
+# Fixel's binaries and files derived from them (recreated by tools/setup_from_official.py)
+original/
+*.ode
+*.iso
+fpga_bitstream.bin
+source/src/fpga_bitstream.bin
+piode2.elf
+piode2_disasm.s
+functions.tsv
+ghidra_symbols.txt
+piode2_symbols.ld
+db.json
+ghidra/piode2_decompiled.c
+*_ghidra_project.zip
+fz1flash*.bin
+odeboot_bootloader.bin
+references/
+# build output
+source/build/
+build/
+*.o
+*.elf
+*.bin
+__pycache__/
+*.pyc

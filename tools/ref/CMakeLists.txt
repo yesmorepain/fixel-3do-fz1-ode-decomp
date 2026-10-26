@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.13)
+include(pico_sdk_import.cmake)
+project(ref C CXX ASM)
+pico_sdk_init()
+add_executable(ref main.c ff/ff.c ff/ffunicode.c ff/ffsystem.c)
+target_include_directories(ref PRIVATE ${CMAKE_CURRENT_LIST_DIR} ${CMAKE_CURRENT_LIST_DIR}/ff)
+target_compile_definitions(ref PRIVATE CFG_TUSB_DEBUG=1)
+target_link_libraries(ref pico_stdlib pico_multicore hardware_spi hardware_i2c hardware_watchdog hardware_flash tinyusb_host)

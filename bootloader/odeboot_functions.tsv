@@ -1,0 +1,740 @@
+addr	size	name	how
+10000000	170	FUN_10000000	
+100000aa	18	FUN_100000aa	
+100000bc	16	read_flash_sreg	match:compile_time_choice.S.obj
+100001f6	60	FUN_100001f6	
+10000230	10	FUN_10000230	
+100002a0	10	FUN_100002a0	
+100003cc	80	lma_try_boot_app	flash load copy of 20000184
+10000434	804	lma_main	flash load copy of 200001ec
+100007d8	100	FUN_100007d8	
+1000084c	418	lma_board_init	flash load copy of 20000604
+10000a18	20	lma_sd_spi_set_speed	flash load copy of 200007d0
+10000a38	10	lma_ld_word	flash load copy of 200007f0
+10000a42	24	lma_ld_dword	flash load copy of 200007fa
+10000a5a	66	lma_ld_qword	flash load copy of 20000812
+10000a9c	8	lma_st_word	flash load copy of 20000854
+10000aa4	16	lma_st_dword	flash load copy of 2000085c
+10000ab4	30	lma_st_qword	flash load copy of 2000086c
+10000ad2	4	lma_dbc_1st__or__dbc_2nd	flash load copy of 2000088a
+10000ad8	192	lma_tchar2uni	flash load copy of 20000890
+10000ba8	40	lma_clst2sect	flash load copy of 20000960
+10000bd0	38	lma_ld_clust	flash load copy of 20000988
+10000bf6	38	lma_st_clust	flash load copy of 200009ae
+10000c1c	140	lma_pick_lfn	flash load copy of 200009d4
+10000cb0	130	lma_put_lfn	flash load copy of 20000a68
+10000d3c	32	lma_sum_sfn	flash load copy of 20000af4
+10000d5c	46	lma_xdir_sum	flash load copy of 20000b14
+10000d8a	46	lma_init_alloc_info	flash load copy of 20000b42
+10000db8	192	lma_get_ldnumber	flash load copy of 20000b70
+10000e80	40	lma_crc32	flash load copy of 20000c38
+10000eac	82	lma_validate	flash load copy of 20000c64
+10000f00	96	lma_test_gpt_header	flash load copy of 20000cb8
+10000f64	112	lma_sync_window	flash load copy of 20000d1c
+10000fd4	76	lma_move_window	flash load copy of 20000d8c
+10001020	240	lma_check_fs	flash load copy of 20000dd8
+10001120	322	lma_find_volume	flash load copy of 20000ed8
+1000126c	1302	lma_mount_volume	flash load copy of 20001024
+100017b8	166	lma_find_bitmap	flash load copy of 20001570
+1000185e	150	lma_change_bitmap	flash load copy of 20001616
+100018f4	374	lma_put_fat	flash load copy of 200016ac
+10001a6a	50	lma_fill_last_frag	flash load copy of 20001822
+10001a9c	50	lma_fill_first_frag	flash load copy of 20001854
+10001ad0	422	lma_get_fat	flash load copy of 20001888
+10001c7c	454	lma_create_chain	flash load copy of 20001a34
+10001e42	212	lma_dir_sdi	flash load copy of 20001bfa
+10001f16	138	lma_dir_clear	flash load copy of 20001cce
+10001fa0	260	lma_dir_next	flash load copy of 20001d58
+100020a4	112	lma_dir_alloc	flash load copy of 20001e5c
+10002114	268	lma_load_xdir	flash load copy of 20001ecc
+10002220	54	lma_load_obj_xdir	flash load copy of 20001fd8
+10002256	276	lma_dir_read	flash load copy of 2000200e
+1000236c	168	lma_gen_numname	flash load copy of 20002124
+10002418	102	lma_store_xdir	flash load copy of 200021d0
+10002480	784	lma_create_name	flash load copy of 20002238
+100027a4	56	lma_xname_sum	flash load copy of 2000255c
+100027dc	144	lma_create_xdir	flash load copy of 20002594
+1000286c	166	lma_cmp_lfn	flash load copy of 20002624
+1000291c	396	lma_dir_find	flash load copy of 200026d4
+10002aa8	286	lma_follow_path	flash load copy of 20002860
+10002bc6	514	lma_dir_register	flash load copy of 2000297e
+10002dc8	396	lma_remove_chain	flash load copy of 20002b80
+10002f54	152	lma_sync_fs	flash load copy of 20002d0c
+10002ffc	80	lma_f_mount	flash load copy of 20002db4
+10003050	754	lma_f_open	flash load copy of 20002e08
+10003348	574	lma_f_read	flash load copy of 20003100
+10003588	328	lma_f_sync	flash load copy of 20003340
+100036d4	36	lma_f_close	flash load copy of 2000348c
+100036f8	30	lma_f_chdrive	flash load copy of 200034b0
+1000371c	190	lma_f_chdir	flash load copy of 200034d4
+100037e4	780	lma_f_lseek	flash load copy of 2000359c
+10003af0	142	lma_f_opendir	flash load copy of 200038a8
+10003b80	64	lma_ff_uni2oem	flash load copy of 20003938
+10003bc4	86	lma_ff_wtoupper	flash load copy of 2000397c
+10003c6c	26	lma_disk_initialize	flash load copy of 20003a24
+10003c86	26	lma_disk_status	flash load copy of 20003a3e
+10003ca0	42	lma_disk_read	flash load copy of 20003a58
+10003cca	42	lma_disk_write	flash load copy of 20003a82
+10003cf4	32	lma_disk_ioctl	flash load copy of 20003aac
+10003d4c	72	lma_mmc_power_on	flash load copy of 20003b04
+10003da4	26	lma_xchg_spi	flash load copy of 20003b5c
+10003dc4	36	lma_wait_ready	flash load copy of 20003b7c
+10003dec	42	lma_deselect	flash load copy of 20003ba4
+10003e16	40	lma_select	flash load copy of 20003bce
+10003e3e	160	lma_send_cmd	flash load copy of 20003bf6
+10003ee0	26	lma_rcvr_spi_multi	flash load copy of 20003c98
+10003f00	78	lma_rcvr_datablock	flash load copy of 20003cb8
+10003f58	24	lma_xmit_spi_multi	flash load copy of 20003d10
+10003f74	86	lma_xmit_datablock	flash load copy of 20003d2c
+10003fd0	332	lma_mmc_disk_initialize	flash load copy of 20003d88
+1000412c	8	lma_mmc_disk_status	flash load copy of 20003ee4
+10004138	144	lma_mmc_disk_read	flash load copy of 20003ef0
+100041d4	152	lma_mmc_disk_write	flash load copy of 20003f8c
+10004274	54	lma_mmc_disk_ioctl	flash load copy of 2000402c
+100045f8	24	lma_tuh_msc_mount_cb	flash load copy of 200043b0
+1000461c	16	lma_tuh_msc_umount_cb	flash load copy of 200043d4
+10004634	198	lma_usb_msc_service_request	flash load copy of 200043ec
+10004714	8	lma_usb_disk_set_nodisk	flash load copy of 200044cc
+10004720	24	lma_usb_disk_initialize	flash load copy of 200044d8
+1000473c	24	lma_usb_disk_status	flash load copy of 200044f4
+10004758	98	lma_usb_disk_read	flash load copy of 20004510
+100047c0	92	lma_usb_disk_write	flash load copy of 20004578
+10004820	104	lma_usb_disk_ioctl	flash load copy of 200045d8
+1000488c	18	lma_flash_cs_force	flash load copy of 20004644
+100048a8	34	lma_connect_internal_flash	flash load copy of 20004660
+100048d0	30	lma_flash_init_spi	flash load copy of 20004688
+100048f0	12	lma_flash_was_aborted	flash load copy of 200046a8
+10004900	148	lma_flash_put_get	flash load copy of 200046b8
+10004994	36	lma_flash_do_cmd	flash load copy of 2000474c
+100049b8	16	lma_flash_enable_write	flash load copy of 20004770
+100049c8	136	lma_flash_exit_xip	flash load copy of 20004780
+10004a58	134	lma_flash_page_program	flash load copy of 20004810
+10004af0	60	lma_flash_range_program	flash load copy of 200048a8
+10004b38	110	lma_flash_user_erase	flash load copy of 200048f0
+10004bb4	10	lma_flash_sector_erase	flash load copy of 2000496c
+10004bc0	76	lma_flash_read_data	flash load copy of 20004978
+10004c1e	18	lma_reset_unreset_block_wait_noinline	flash load copy of 200049d6
+10004c3c	40	lma_gpio_set_function	flash load copy of 200049f4
+10004c6c	48	lma_gpio_set_pulls	flash load copy of 20004a24
+10004ca0	28	lma_gpio_set_drive_strength	flash load copy of 20004a58
+10004cc0	22	lma_gpio_init	flash load copy of 20004a78
+10004cd8	20	lma_hw_claim_lock	flash load copy of 20004a90
+10004cf0	16	lma_hw_claim_unlock	flash load copy of 20004aa8
+10004d04	50	lma_hw_claim_or_assert	flash load copy of 20004abc
+10004d36	80	lma_hw_claim_unused_from_range	flash load copy of 20004aee
+10004d88	16	lma_running_on_fpga	flash load copy of 20004b40
+10004d9c	26	lma_spin_locks_reset	flash load copy of 20004b54
+10004dbc	22	lma_next_striped_spin_lock_num	flash load copy of 20004b74
+10004dd8	24	lma_spin_lock_claim_unused	flash load copy of 20004b90
+10004df8	84	lma_uart_set_baudrate	flash load copy of 20004bb0
+10004e54	30	lma_uart_set_translate_crlf	flash load copy of 20004c0c
+10004e7c	108	lma_uart_init	flash load copy of 20004c34
+10004f3c	50	lma_alarm_pool_post_alloc_init	flash load copy of 20004cf4
+10005028	134	lma_ph_add_child_node	flash load copy of 20004de0
+100050cc	62	lma_ph_merge_nodes	flash load copy of 20004e84
+1000510c	328	lma_add_alarm_under_lock	flash load copy of 20004ec4
+10005280	736	lma_alarm_pool_alarm_callback	flash load copy of 20005038
+100055a8	44	lma_alarm_pool_init_default	flash load copy of 20005360
+100055e0	26	lma_alarm_pool_get_default	flash load copy of 20005398
+1000560c	344	lma_alarm_pool_add_alarm_at	flash load copy of 200053c4
+1000577c	202	lma_alarm_pool_cancel_alarm	flash load copy of 20005534
+1000586c	140	lma_alarm_pool_add_repeating_timer_us	flash load copy of 20005624
+10005908	222	lma_sleep_until	flash load copy of 200056c0
+10005a04	74	lma_sleep_us	flash load copy of 200057bc
+10005a5c	20	lma_sleep_ms	flash load copy of 20005814
+10005a70	120	lma_best_effort_wfe_or_timeout	flash load copy of 20005828
+10005b7c	14	lma_hardware_alarm_claim	flash load copy of 20005934
+10005b94	18	lma_time_us_64	flash load copy of 2000594c
+10005bac	34	lma_busy_wait_until	flash load copy of 20005964
+10005bd4	60	lma_busy_wait_us	flash load copy of 2000598c
+10005c1c	30	lma_busy_wait_us_32	flash load copy of 200059d4
+10005c40	124	lma_hardware_alarm_set_callback	flash load copy of 200059f8
+10005cd0	198	lma_hardware_alarm_set_target	flash load copy of 20005a88
+10005db8	50	lma_hardware_alarm_cancel	flash load copy of 20005b70
+10005df8	12	lma_lock_init	flash load copy of 20005bb0
+10005e08	26	lma_mutex_init	flash load copy of 20005bc0
+10005e22	30	lma_recursive_mutex_init	flash load copy of 20005bda
+10005e40	16	lma_critical_section_init_with_lock_num	flash load copy of 20005bf8
+10005e54	20	lma_critical_section_init	flash load copy of 20005c0c
+10005e68	134	lma_ph_add_child_node	flash load copy of 20005c20
+10005f0c	62	lma_ph_merge_nodes	flash load copy of 20005cc4
+10005f4c	100	lma_ph_clear	flash load copy of 20005d04
+10005fbc	14	lma_ph_post_alloc_init	flash load copy of 20005d74
+10005fcc	156	lma_ph_merge_two_pass	flash load copy of 20005d84
+10006074	232	lma_ph_remove_any_head	flash load copy of 20005e2c
+1000617c	20	lma_ph_remove_head	flash load copy of 20005f34
+10006190	220	lma_ph_remove_and_free_node	flash load copy of 20005f48
+10006288	4	lma__exit	flash load copy of 20006040
+10006294	46	lma___assert_func	flash load copy of 2000604c
+100062d0	174	lma_runtime_init	flash load copy of 20006088
+100063c8	48	lma_panic	flash load copy of 20006180
+100063f8	238	lma_clock_configure	flash load copy of 200061b0
+100064fc	206	lma_clocks_init	flash load copy of 200062b4
+100065fc	8	lma_clock_get_hz	flash load copy of 200063b4
+10006608	30	lma_set_raw_irq_handler_and_unlock	flash load copy of 200063c0
+10006630	36	lma_make_branch	flash load copy of 200063e8
+10006664	42	lma_insert_branch_and_link	flash load copy of 2000641c
+100066a4	18	lma_irq_is_enabled	flash load copy of 2000645c
+100066bc	20	lma_irq_set_mask_enabled	flash load copy of 20006474
+100066dc	14	lma_irq_set_enabled	flash load copy of 20006494
+100066ec	12	lma_irq_get_vtable_handler	flash load copy of 200064a4
+100066fc	64	lma_irq_set_exclusive_handler	flash load copy of 200064b4
+10006750	372	lma_irq_remove_handler	flash load copy of 20006508
+100069ec	18	lma_irq_init_priorities	flash load copy of 200067a4
+10006a08	240	lma_pll_init	flash load copy of 200067c0
+10006b20	12	lma_watchdog_start_tick	flash load copy of 200068d8
+10006b30	10	lma_watchdog_update	flash load copy of 200068e8
+10006b44	96	lma__watchdog_enable	flash load copy of 200068fc
+10006bbc	14	lma_watchdog_enable	flash load copy of 20006974
+10006bd4	12	lma_watchdog_caused_reboot	flash load copy of 2000698c
+10006be4	28	lma_xosc_init	flash load copy of 2000699c
+10006c1c	36	lma__atoi	flash load copy of 200069d4
+10006c40	174	lma__out_rev	flash load copy of 200069f8
+10006cee	274	lma__ntoa_format	flash load copy of 20006aa6
+10006e00	188	lma__ntoa_long	flash load copy of 20006bb8
+10006ebc	226	lma__ntoa_long_long	flash load copy of 20006c74
+10006fa0	936	lma__etoa	flash load copy of 20006d58
+100073b4	812	lma__ftoa	flash load copy of 2000716c
+10007708	342	lma__vsnprintf	flash load copy of 200074c0
+10007d2c	28	lma_vfctprintf	flash load copy of 20007ae4
+10007db4	32	lma___aeabi_idivmod	flash load copy of 20007b6c
+10007dbc	44	lma_divmod_s32s32_unsafe	flash load copy of 20007b74
+10007e04	32	lma___aeabi_uidiv	flash load copy of 20007bbc
+10007e0c	38	lma_divmod_u32u32_unsafe	flash load copy of 20007bc4
+10007e88	52	lma___aeabi_uldivmod	flash load copy of 20007c40
+10007f48	796	lma_divmod_u64u64_unsafe	flash load copy of 20007d00
+1000828a	12	lma___wrap___aeabi_dsub	flash load copy of 20008042
+1000829c	12	lma___wrap___aeabi_dadd	flash load copy of 20008054
+100082ae	42	lma___aeabi_ddiv	flash load copy of 20008066
+100082ba	12	lma_double_shim_helper	flash load copy of 20008072
+100082ea	12	lma___wrap___aeabi_dmul	flash load copy of 200080a2
+10008304	16	lma___wrap___aeabi_cdrcmple	flash load copy of 200080bc
+10008314	86	lma___wrap___aeabi_cdcmpeq__or____wrap___aeabi_cdcmple	flash load copy of 200080cc
+10008370	10	lma___wrap___aeabi_dcmplt	flash load copy of 20008128
+1000837c	16	lma___wrap___aeabi_dcmpge__or____wrap___aeabi_dcmple	flash load copy of 20008134
+1000838c	16	lma___wrap___aeabi_dcmpge__or____wrap___aeabi_dcmple	flash load copy of 20008144
+1000839c	10	lma___wrap___aeabi_dcmpgt	flash load copy of 20008154
+100083a6	24	lma___wrap___aeabi_dcmpun	flash load copy of 2000815e
+100083c4	8	lma___wrap___aeabi_ui2d	flash load copy of 2000817c
+100083cc	40	lma___wrap___aeabi_i2d	flash load copy of 20008184
+100083fc	72	lma___wrap___aeabi_d2iz__or__double2int_z	flash load copy of 200081b4
+10008444	12	lma___wrap___aeabi_d2uiz__or__double2uint	flash load copy of 200081fc
+10008a8c	50	lma___wrap___aeabi_lmul	flash load copy of 20008844
+10008c00	6	lma_memset	flash load copy of 200089b8
+10008c0c	6	lma_memcpy	flash load copy of 200089c4
+10008c28	124	lma_stdio_out_chars_crlf	flash load copy of 200089e0
+10008ca8	58	lma_stdio_stack_buffer_flush	flash load copy of 20008a60
+10008d0c	42	lma_stdout_serialize_begin	flash load copy of 20008ac4
+10008d3c	10	lma_stdout_serialize_end	flash load copy of 20008af4
+10008d4c	136	lma_stdio_put_string	flash load copy of 20008b04
+10008de4	52	lma_stdio_set_driver_enabled	flash load copy of 20008b9c
+10008e1c	26	lma_stdio_flush	flash load copy of 20008bd4
+10008e3c	30	lma___wrap_puts	flash load copy of 20008bf4
+10008e5c	64	lma___wrap_vprintf	flash load copy of 20008c14
+10008ea0	24	lma___wrap_printf	flash load copy of 20008c58
+10008eb8	104	lma_stdio_uart_out_chars	flash load copy of 20008c70
+10008f2c	82	lma_stdio_uart_in_chars	flash load copy of 20008ce4
+10008f84	52	lma_stdio_uart_init_full	flash load copy of 20008d3c
+10008fc0	146	lma_spi_set_baudrate	flash load copy of 20008d78
+10009054	86	lma_spi_init	flash load copy of 20008e0c
+100090bc	214	lma_i2c_set_baudrate	flash load copy of 20008e74
+100091ac	70	lma_i2c_init	flash load copy of 20008f64
+10009212	20	lma_multicore_fifo_push_blocking	flash load copy of 20008fca
+10009226	2	lma_multicore_fifo_pop_blocking	flash load copy of 20008fde
+1000922a	20	FUN_1000922a	
+1000923c	110	lma_multicore_launch_core1_raw	flash load copy of 20008ff4
+100092ac	56	lma_multicore_launch_core1_with_stack	flash load copy of 20009064
+100092fc	28	lma_multicore_launch_core1	flash load copy of 200090b4
+10009320	60	lma_get_dev_ep	flash load copy of 200090d8
+10009360	44	lma__next_free_interrupt_ep	flash load copy of 20009118
+10009390	36	lma_next_free_interrupt_ep	flash load copy of 20009148
+100093b8	122	lma__hw_endpoint_allocate	flash load copy of 20009170
+10009458	144	lma__hw_endpoint_reinit_epx	flash load copy of 20009210
+10009524	36	lma_hw_xfer_complete	flash load copy of 200092dc
+10009548	30	lma__handle_buff_status_bit	flash load copy of 20009300
+1000956c	86	lma_hw_handle_buff_status	flash load copy of 20009324
+100095d4	40	lma_hw_trans_complete	flash load copy of 2000938c
+10009610	168	lma_hcd_rp2040_irq	flash load copy of 200093c8
+100096cc	68	lma_hcd_init	flash load copy of 20009484
+10009754	38	lma_hcd_port_connect_status	flash load copy of 2000950c
+1000978c	56	lma_hcd_port_speed_get	flash load copy of 20009544
+100097d8	28	lma_need_pre	flash load copy of 20009590
+100097f4	268	lma__hw_endpoint_init	flash load copy of 200095ac
+10009928	114	lma_hcd_device_close	flash load copy of 200096e0
+100099ac	30	lma_hcd_int_enable	flash load copy of 20009764
+100099d8	56	lma_hcd_edpt_open	flash load copy of 20009790
+10009a10	298	lma_hcd_edpt_xfer	flash load copy of 200097c8
+10009b64	96	lma_hcd_setup_send	flash load copy of 2000991c
+10009be0	120	lma_prepare_ep_buffer	flash load copy of 20009998
+10009c58	106	lma_sync_ep_buffer	flash load copy of 20009a10
+10009cd4	40	lma__hw_endpoint_xfer_sync	flash load copy of 20009a8c
+10009cfc	56	lma_rp2040_usb_init	flash load copy of 20009ab4
+10009d48	12	lma_hw_endpoint_reset_transfer	flash load copy of 20009b00
+10009d54	62	lma__hw_endpoint_buffer_control_update32	flash load copy of 20009b0c
+10009da0	102	lma__hw_endpoint_start_next_buffer	flash load copy of 20009b58
+10009e14	62	lma_hw_endpoint_xfer_start	flash load copy of 20009bcc
+10009e5c	48	lma_hw_endpoint_xfer_continue	flash load copy of 20009c14
+10009e94	80	lma_get_new_address	flash load copy of 20009c4c
+10009ef0	94	lma_enum_hub_get_status0_complete	flash load copy of 20009ca8
+10009f68	74	lma_enum_hub_get_status1_complete	flash load copy of 20009d20
+10009fd0	182	lma_enum_request_set_addr	flash load copy of 20009d88
+1000a0dc	116	lma_enum_get_device_desc_complete	flash load copy of 20009e94
+1000a174	128	lma_enum_get_9byte_config_desc_complete	flash load copy of 20009f2c
+1000a210	222	lma_process_device_unplugged	flash load copy of 20009fc8
+1000a4a4	26	lma_tuh_speed_get	flash load copy of 2000a25c
+1000a4c8	6	lma_tuh_inited	flash load copy of 2000a280
+1000a4d4	234	lma_tuh_init	flash load copy of 2000a28c
+1000a5e0	24	lma_usbh_get_rhport	flash load copy of 2000a398
+1000a600	56	lma_usbh_edpt_control_open	flash load copy of 2000a3b8
+1000a638	72	lma_enum_request_addr0_device_desc	flash load copy of 2000a3f0
+1000a69c	102	lma_enum_new_device	flash load copy of 2000a454
+1000a71c	282	lma_tuh_task	flash load copy of 2000a4d4
+1000a93c	162	lma_enum_set_address_complete	flash load copy of 2000a6f4
+1000aa08	68	lma_hcd_event_handler	flash load copy of 2000a7c0
+1000aa58	38	lma_hcd_event_xfer_complete	flash load copy of 2000a810
+1000aa7e	34	lma_hcd_event_device_attach	flash load copy of 2000a836
+1000aaa0	40	lma_hcd_event_device_remove	flash load copy of 2000a858
+1000aac8	94	lma_usbh_driver_set_config_complete	flash load copy of 2000a880
+1000ab9c	152	lma_usbh_edpt_xfer	flash load copy of 2000a954
+1000ac48	78	lma_usbh_edpt_open	flash load copy of 2000aa00
+1000acac	18	lma__xfer_complete	flash load copy of 2000aa64
+1000acc4	78	lma_tuh_control_xfer	flash load copy of 2000aa7c
+1000ad20	138	lma_usbh_control_xfer_cb	flash load copy of 2000aad8
+1000adb0	66	lma_connection_port_reset_complete	flash load copy of 2000ab68
+1000adfc	84	lma_hub_port_clear_feature	flash load copy of 2000abb4
+1000ae58	84	lma_hub_port_set_feature	flash load copy of 2000ac10
+1000aff4	86	lma_hub_port_get_status	flash load copy of 2000adac
+1000b11c	22	lma_hub_status_pipe_queue	flash load copy of 2000aed4
+1000b184	68	lma_hub_set_config	flash load copy of 2000af3c
+1000b240	130	lma_config_read_capacity_complete	flash load copy of 2000aff8
+1000b30c	120	lma_tuh_msc_scsi_command	flash load copy of 2000b0c4
+1000b390	88	lma_tuh_msc_read_capacity	flash load copy of 2000b148
+1000b3f4	114	lma_tuh_msc_inquiry	flash load copy of 2000b1ac
+1000b474	78	lma_tuh_msc_test_unit_ready	flash load copy of 2000b22c
+1000b54c	100	lma_tuh_msc_request_sense	flash load copy of 2000b304
+1000b600	186	lma_tuh_msc_read10	flash load copy of 2000b3b8
+1000b6c8	180	lma_tuh_msc_write10	flash load copy of 2000b480
+1000b7d4	338	lma_msch_xfer_cb	flash load copy of 2000b58c
+1000b934	216	lma_msch_open	flash load copy of 2000b6ec
+1000ba18	142	lma_msch_set_config	flash load copy of 2000b7d0
+1000badc	14	lma_tusb_inited	flash load copy of 2000b894
+1000baec	156	lma_tu_edpt_validate	flash load copy of 2000b8a4
+1000bbfc	24	lma_advance_pointer	flash load copy of 2000b9b4
+1000bc14	30	lma_backward_pointer	flash load copy of 2000b9cc
+1000bc32	16	lma_get_relative_pointer	flash load copy of 2000b9ea
+1000bc42	80	lma__tu_fifo_peek	flash load copy of 2000b9fa
+1000bc92	66	lma_tu_fifo_read	flash load copy of 2000ba4a
+1000bcd4	108	lma_tu_fifo_write	flash load copy of 2000ba8c
+1000bd40	76	lma_tu_fifo_clear	flash load copy of 2000baf8
+1000bd8c	2	lma___aeabi_idiv0	flash load copy of 2000bb44
+1000bd90	70	lma_memcmp	flash load copy of 2000bb48
+1000bdd8	182	lma_strchr	flash load copy of 2000bb90
+1000be98	84	lma_strlen	flash load copy of 2000bc50
+1000bef8	10	lma_____get_current_exception_veneer	flash load copy of 2000bcb0
+1000bf08	72	lma_mutex_enter_blocking	flash load copy of 2000bcc0
+1000bf50	70	lma_mutex_try_enter	flash load copy of 2000bd08
+1000bf98	126	lma_mutex_enter_block_until	flash load copy of 2000bd50
+1000c024	104	lma_mutex_enter_timeout_ms__or__recursive_mutex_enter_timeout_ms	flash load copy of 2000bddc
+1000c098	62	lma_mutex_exit	flash load copy of 2000be50
+1000c0e4	66	lma_spi_write_read_blocking	flash load copy of 2000be9c
+1000c126	58	lma_spi_write_blocking	flash load copy of 2000bede
+1000c160	62	lma_spi_read_blocking	flash load copy of 2000bf18
+200000ec	16	FUN_200000ec	
+2000010c	34	core1_sio_irq_handler	app:core1_sio_irq_handler 1.00
+20000134	66	core1_usb_task	manual: odeboot_main.c
+20000184	80	try_boot_app	manual: odeboot_main.c
+200001ec	804	main	manual: odeboot_main.c
+20000530	10	FUN_20000530	
+20000590	100	FUN_20000590	
+20000604	418	board_init	app:board_init 0.92
+200007d0	16	sd_spi_set_speed	L spi_set_baudrate(fast if arg)
+200007e0	4	sd_spi_set_slow	L spi_set_baudrate(slow)
+200007f0	10	ld_word	match:ff.c.obj(neighbour)
+200007fa	24	ld_dword	match:ff.c.obj
+20000812	66	ld_qword	match:ff.c.obj
+20000854	8	st_word	match:ff.c.obj(neighbour)
+2000085c	16	st_dword	match:ff.c.obj
+2000086c	30	st_qword	match:ff.c.obj
+2000088a	4	dbc_1st__or__dbc_2nd	match:ff.c.obj(neighbour)
+20000890	192	tchar2uni	match:ff.c.obj
+20000960	40	clst2sect	match:ff.c.obj
+20000988	38	ld_clust	match:ff.c.obj
+200009ae	38	st_clust	match:ff.c.obj
+200009d4	140	pick_lfn	match:ff.c.obj
+20000a68	130	put_lfn	match:ff.c.obj
+20000af4	32	sum_sfn	match:ff.c.obj
+20000b14	46	xdir_sum	match:ff.c.obj
+20000b42	46	init_alloc_info	match:ff.c.obj
+20000b70	192	get_ldnumber	via:mount_volume+0x16
+20000c38	40	crc32	match:ff.c.obj
+20000c64	82	validate	match:ff.c.obj
+20000cb8	96	test_gpt_header	match:ff.c.obj
+20000d1c	112	sync_window	match:ff.c.obj
+20000d8c	76	move_window	match:ff.c.obj
+20000dd8	240	check_fs	match:ff.c.obj
+20000ed8	322	find_volume	match:ff.c.obj
+20001024	1302	mount_volume	match:ff.c.obj
+20001570	166	find_bitmap	match:ff.c.obj
+20001616	150	change_bitmap	match:ff.c.obj
+200016ac	374	put_fat	match:ff.c.obj
+20001822	50	fill_last_frag	match:ff.c.obj
+20001854	50	fill_first_frag	match:ff.c.obj
+20001888	422	get_fat	match:ff.c.obj
+20001a34	454	create_chain	match:ff.c.obj
+20001bfa	212	dir_sdi	match:ff.c.obj
+20001cce	138	dir_clear	match:ff.c.obj
+20001d58	260	dir_next	match:ff.c.obj
+20001e5c	112	dir_alloc	match:ff.c.obj
+20001ecc	268	load_xdir	match:ff.c.obj
+20001fd8	54	load_obj_xdir	match:ff.c.obj
+2000200e	276	dir_read	match:ff.c.obj
+20002124	168	gen_numname	match:ff.c.obj
+200021d0	102	store_xdir	match:ff.c.obj
+20002238	662	create_name	L FatFs, tchar2uni/strchr/ff_uni2oem (Fixel FatFs differs here, as in app)
+2000240a	122	FUN_2000240a	
+2000255c	56	xname_sum	match:ff.c.obj
+20002594	144	create_xdir	match:ff.c.obj
+20002624	166	cmp_lfn	match:ff.c.obj
+200026d4	396	dir_find	match:ff.c.obj
+20002860	286	follow_path	via:f_opendir+0x2c
+2000297e	514	dir_register	match:ff.c.obj
+20002b80	396	remove_chain	app:remove_chain 1.00
+20002d0c	152	sync_fs	match:ff.c.obj
+20002db4	80	f_mount	match:ff.c.obj
+20002e08	754	f_open	app:f_open 1.00
+20003100	574	f_read	match:ff.c.obj
+20003340	328	f_sync	via:f_close+0x6
+2000348c	36	f_close	match:ff.c.obj
+200034b0	30	f_chdrive	match:ff.c.obj
+200034d4	190	f_chdir	app:f_chdir 1.00
+2000359c	780	f_lseek	match:ff.c.obj
+200038a8	142	f_opendir	match:ff.c.obj
+20003938	64	ff_uni2oem	app:ff_uni2oem 1.00
+2000397c	86	ff_wtoupper	match:ffunicode.c.obj
+20003a24	26	disk_initialize	via:mount_volume+0x60
+20003a3e	26	disk_status	via:validate+0x28
+20003a58	42	disk_read	via:move_window+0x36
+20003a82	42	disk_write	via:sync_window+0x2c
+20003aac	32	disk_ioctl	via:sync_fs+0x1a
+20003acc	46	mmc_disk_timerproc	app:mmc_disk_timerproc 1.00
+20003b04	72	mmc_power_on	app:mmc_power_on 1.00
+20003b5c	26	xchg_spi	app:xchg_spi 1.00
+20003b7c	36	wait_ready	L mmc_spi, xchg_spi loop
+20003ba4	42	deselect	app:deselect 1.00
+20003bce	40	select	app:select 1.00
+20003bf6	160	send_cmd	app:send_cmd 1.00
+20003c98	26	rcvr_spi_multi	app:rcvr_spi_multi 1.00
+20003cb8	78	rcvr_datablock	L mmc_spi, rcvr_spi_multi
+20003d10	24	xmit_spi_multi	app:xmit_spi_multi 1.00
+20003d2c	86	xmit_datablock	L mmc_spi, wait_ready + xmit_spi_multi
+20003d88	332	mmc_disk_initialize	app:mmc_disk_initialize 0.91
+20003ee4	8	mmc_disk_status	app:mmc_disk_status 1.00
+20003ef0	144	mmc_disk_read	L mmc_spi, send_cmd + rcvr_datablock (app 0.69)
+20003f8c	152	mmc_disk_write	app:mmc_disk_write 1.00
+2000402c	54	mmc_disk_ioctl	L mmc_spi, 15-entry switch, RES_NOTRDY/PARERR
+200042f0	134	msc_inquiry_complete_cb	app:msc_inquiry_complete_cb 1.00
+2000439c	10	msc_read_complete_cb	app:msc_read_complete_cb 1.00
+200043a6	10	msc_write_complete_cb	app: 2nd of identical read/write pair (as in app)
+200043b0	24	tuh_msc_mount_cb	ptr:config_read_capacity_complete+0x8c
+200043d4	16	tuh_msc_umount_cb	via:msch_close+0x1e
+200043ec	198	usb_msc_service_request	app:usb_msc_service_request 1.00
+200044cc	8	usb_disk_set_nodisk	app:usb_disk_set_nodisk 1.00
+200044d8	24	usb_disk_initialize	L core1 FIFO request 1
+200044f4	24	usb_disk_status	L core1 FIFO request; main polls &STA_NODISK
+20004510	98	usb_disk_read	L core1 FIFO request + memcpy
+20004578	92	usb_disk_write	L core1 FIFO request + memcpy
+200045d8	104	usb_disk_ioctl	L core1 FIFO request
+20004644	18	flash_cs_force	L pflash.c, writes QSPI SS OUTOVER
+20004660	34	connect_internal_flash	L pflash.c, reset IO/PADS_QSPI + funcsel 0 on 6 pins
+20004688	30	flash_init_spi	L pflash.c, SSI baud 6, ctrlr0 0x70000
+200046a8	12	flash_was_aborted	L pflash.c, QSPI SD1 INOVER bits
+200046b8	148	flash_put_get	L pflash.c, (tx, rx, count, rx_skip)
+2000474c	36	flash_do_cmd	L pflash.c
+20004770	16	flash_enable_write	L pflash.c, cmd 0x06
+20004780	136	flash_exit_xip	L pflash.c, 0xff 0xff sequence
+20004810	134	flash_page_program	pflash.c assert string
+200048a8	60	flash_range_program	pflash.c assert string
+200048f0	110	flash_user_erase	pflash.c assert string
+2000496c	10	flash_sector_erase	L pflash.c, flash_user_erase(addr, 0x20)
+20004978	76	flash_read_data	pflash.c assert string
+200049d6	18	reset_unreset_block_wait_noinline	L reset/unreset/wait-done
+200049f4	40	gpio_set_function	match:gpio.c.obj
+20004a24	48	gpio_set_pulls	match:gpio.c.obj
+20004a58	28	gpio_set_drive_strength	match:gpio.c.obj
+20004a78	22	gpio_init	match:gpio.c.obj
+20004a90	20	hw_claim_lock	match:claim.c.obj
+20004aa8	16	hw_claim_unlock	match:claim.c.obj
+20004abc	50	hw_claim_or_assert	match:claim.c.obj
+20004aee	80	hw_claim_unused_from_range	match:claim.c.obj
+20004b40	16	running_on_fpga	match:platform.c.obj
+20004b54	26	spin_locks_reset	match:sync.c.obj
+20004b74	22	next_striped_spin_lock_num	match:sync.c.obj
+20004b90	24	spin_lock_claim_unused	match:sync.c.obj
+20004bb0	84	uart_set_baudrate	match:uart.c.obj
+20004c0c	30	uart_set_translate_crlf	match:uart.c.obj
+20004c34	108	uart_init	match:uart.c.obj
+20004cb4	50	repeating_timer_callback	match:time.c.obj
+20004cf4	50	alarm_pool_post_alloc_init	match:time.c.obj
+20004d34	44	sleep_until_callback	match:time.c.obj
+20004d64	106	timer_pool_entry_comparator	match:time.c.obj
+20004de0	134	ph_add_child_node	match:pheap.c.obj,time.c.obj
+20004e84	62	ph_merge_nodes	match:pheap.c.obj,time.c.obj
+20004ec4	328	add_alarm_under_lock	match:time.c.obj
+20005038	736	alarm_pool_alarm_callback	match:time.c.obj
+20005360	44	alarm_pool_init_default	match:time.c.obj
+20005398	26	alarm_pool_get_default	match:time.c.obj
+200053c4	344	alarm_pool_add_alarm_at	match:time.c.obj
+20005534	202	alarm_pool_cancel_alarm	match:time.c.obj
+20005624	140	alarm_pool_add_repeating_timer_us	match:time.c.obj
+200056c0	222	sleep_until	match:time.c.obj
+200057bc	74	sleep_us	match:time.c.obj(neighbour)
+20005814	20	sleep_ms	match:time.c.obj
+20005828	120	best_effort_wfe_or_timeout	match:time.c.obj
+200058a8	118	hardware_alarm_irq_handler	match:timer.c.obj
+20005934	14	hardware_alarm_claim	match:timer.c.obj(neighbour)
+2000594c	18	time_us_64	match:timer.c.obj
+20005964	34	busy_wait_until	match:timer.c.obj
+2000598c	60	busy_wait_us	match:timer.c.obj
+200059d4	30	busy_wait_us_32	match:timer.c.obj
+200059f8	124	hardware_alarm_set_callback	match:timer.c.obj
+20005a88	198	hardware_alarm_set_target	match:timer.c.obj
+20005b70	50	hardware_alarm_cancel	match:timer.c.obj
+20005bb0	12	lock_init	match:lock_core.c.obj
+20005bc0	26	mutex_init	match:mutex.c.obj
+20005bda	30	recursive_mutex_init	match:mutex.c.obj
+20005bf8	16	critical_section_init_with_lock_num	match:critical_section.c.obj
+20005c0c	20	critical_section_init	match:critical_section.c.obj
+20005c20	134	ph_add_child_node	match:pheap.c.obj,time.c.obj
+20005cc4	62	ph_merge_nodes	match:pheap.c.obj,time.c.obj
+20005d04	100	ph_clear	match:pheap.c.obj
+20005d74	14	ph_post_alloc_init	match:pheap.c.obj
+20005d84	156	ph_merge_two_pass	match:pheap.c.obj
+20005e2c	232	ph_remove_any_head	match:pheap.c.obj
+20005f34	20	ph_remove_head	match:pheap.c.obj
+20005f48	220	ph_remove_and_free_node	match:pheap.c.obj
+20006040	4	_exit	match:runtime.c.obj(neighbour)
+20006044	8	FUN_20006044	
+2000604c	46	__assert_func	match:runtime.c.obj
+20006088	174	runtime_init	match:runtime.c.obj
+20006180	48	panic	match:runtime.c.obj
+200061b0	238	clock_configure	match:clocks.c.obj
+200062b4	206	clocks_init	match:clocks.c.obj
+200063b4	8	clock_get_hz	match:clocks.c.obj(neighbour)
+200063c0	30	set_raw_irq_handler_and_unlock	match:irq.c.obj
+200063e8	36	make_branch	match:irq.c.obj
+2000641c	32	insert_branch_and_link	via:irq_remove_handler+0x15c
+2000643c	10	FUN_2000643c	
+2000645c	18	irq_is_enabled	match:irq.c.obj
+20006474	20	irq_set_mask_enabled	match:irq.c.obj
+20006494	14	irq_set_enabled	match:irq.c.obj
+200064a4	12	irq_get_vtable_handler	match:irq.c.obj
+200064b4	64	irq_set_exclusive_handler	match:irq.c.obj
+20006508	372	irq_remove_handler	match:irq.c.obj
+200066b4	192	irq_add_tail_to_free_list	match:irq.c.obj
+200067a4	18	irq_init_priorities	match:irq.c.obj
+200067c0	240	pll_init	match:pll.c.obj
+200068d8	12	watchdog_start_tick	match:watchdog.c.obj
+200068e8	10	watchdog_update	match:watchdog.c.obj
+200068fc	96	_watchdog_enable	match:watchdog.c.obj
+20006974	14	watchdog_enable	match:watchdog.c.obj
+2000698c	12	watchdog_caused_reboot	match:watchdog.c.obj
+2000699c	28	xosc_init	match:xosc.c.obj
+200069c4	2	_out_null	match:printf.c.obj(neighbour)
+200069c6	14	_out_fct	match:printf.c.obj
+200069d4	36	_atoi	match:printf.c.obj
+200069f8	174	_out_rev	match:printf.c.obj
+20006aa6	274	_ntoa_format	match:printf.c.obj
+20006bb8	188	_ntoa_long	match:printf.c.obj
+20006c74	226	_ntoa_long_long	match:printf.c.obj
+20006d58	728	_etoa	via:_vsnprintf+0x434
+20007018	208	_etoa	L printf.c, calls _ftoa/_ntoa_long
+2000716c	500	_ftoa	via:_vsnprintf+0x3de
+200071f2	2	thunk_FUN_20007362	
+20007362	310	_vsnprintf	L printf.c, format loop
+200074c0	342	_vsnprintf	match:printf.c.obj
+20007ae4	28	vfctprintf	match:printf.c.obj
+20007b04	8	__aeabi_bits_init__or____aeabi_mem_init	match:bit_ops_aeabi.S.obj,mem_ops_aeabi.S.obj
+20007b14	16	rom_func_lookup	match:bootrom.c.obj
+20007b24	16	rom_data_lookup	match:bootrom.c.obj
+20007b34	54	rom_funcs_lookup	match:bootrom.c.obj
+20007b6c	32	__aeabi_idivmod	via:_ftoa+0x274 (on flash copy)
+20007b74	44	divmod_s32s32_unsafe	match:divider.S.obj
+20007bbc	32	__aeabi_uidiv	via:mount_volume+0x14c
+20007bc4	38	divmod_u32u32_unsafe	match:divider.S.obj
+20007c40	52	__aeabi_uldivmod	via:get_fat+0x8c
+20007d00	796	divmod_u64u64_unsafe	match:divider.S.obj
+20008042	12	__wrap___aeabi_dsub	match:double_aeabi.S.obj
+20008054	12	__wrap___aeabi_dadd	match:double_aeabi.S.obj
+20008066	42	__aeabi_ddiv	via:_etoa+0x17a (on flash copy)
+20008072	12	double_shim_helper	app:double_shim_helper 1.00
+200080a2	12	__wrap___aeabi_dmul	match:double_aeabi.S.obj
+200080bc	16	__wrap___aeabi_cdrcmple	match:double_aeabi.S.obj
+200080cc	86	__wrap___aeabi_cdcmpeq__or____wrap___aeabi_cdcmple	match:double_aeabi.S.obj(neighbour)
+20008128	10	__wrap___aeabi_dcmplt	match:double_aeabi.S.obj(neighbour)
+20008134	16	__wrap___aeabi_dcmpge__or____wrap___aeabi_dcmple	match:double_aeabi.S.obj(neighbour)
+20008144	16	__wrap___aeabi_dcmpge__or____wrap___aeabi_dcmple	match:double_aeabi.S.obj(neighbour)
+20008154	10	__wrap___aeabi_dcmpgt	match:double_aeabi.S.obj(neighbour)
+2000815e	24	__wrap___aeabi_dcmpun	match:double_aeabi.S.obj
+2000817c	8	__wrap___aeabi_ui2d	match:double_aeabi.S.obj(neighbour)
+20008184	40	__wrap___aeabi_i2d	match:double_aeabi.S.obj
+200081b4	72	__wrap___aeabi_d2iz__or__double2int_z	match:double_aeabi.S.obj(neighbour)
+200081fc	12	__wrap___aeabi_d2uiz__or__double2uint	match:double_aeabi.S.obj(neighbour)
+20008214	144	__aeabi_double_init	match:double_init_rom.c.obj
+200082dc	46	double_table_shim_on_use_helper	match:double_v1_rom_shim.S.obj(neighbour)
+20008316	352	dsub_shim	ptr:__wrap___aeabi_dsub+0xe
+2000847c	342	dmul_shim	match:double_v1_rom_shim.S.obj
+20008642	318	FUN_20008642	
+200087ba	74	d2fix_a	match:double_v1_rom_shim.S.obj
+20008844	50	__wrap___aeabi_lmul	match:pico_int64_ops_aeabi.S.obj
+20008878	174	__aeabi_float_init	match:float_init_rom.c.obj
+20008974	46	double_table_shim_on_use_helper__or__float_table_shim_on_use_helper	match:double_v1_rom_shim.S.obj,float_v1_rom_shim.S.obj
+200089a8	8	__aeabi_bits_init__or____aeabi_mem_init	match:bit_ops_aeabi.S.obj,mem_ops_aeabi.S.obj
+200089b8	6	memset	via:dir_clear+0x46
+200089c4	6	memcpy	via:load_xdir+0x2e
+200089d0	14	stdio_out_chars_no_crlf	match:stdio.c.obj
+200089e0	124	stdio_out_chars_crlf	match:stdio.c.obj
+20008a60	58	stdio_stack_buffer_flush	match:stdio.c.obj
+20008aa4	32	stdio_buffered_printer	match:stdio.c.obj
+20008ac4	42	stdout_serialize_begin	match:stdio.c.obj
+20008af4	10	stdout_serialize_end	match:stdio.c.obj(neighbour)
+20008b04	136	stdio_put_string	match:stdio.c.obj
+20008b9c	52	stdio_set_driver_enabled	match:stdio.c.obj
+20008bd4	26	stdio_flush	match:stdio.c.obj
+20008bf4	30	__wrap_puts	match:stdio.c.obj
+20008c14	64	__wrap_vprintf	match:stdio.c.obj
+20008c58	24	__wrap_printf	match:stdio.c.obj
+20008c70	104	stdio_uart_out_chars	match:stdio_uart.c.obj
+20008ce4	82	stdio_uart_in_chars	match:stdio_uart.c.obj
+20008d3c	52	stdio_uart_init_full	match:stdio_uart.c.obj
+20008d78	146	spi_set_baudrate	match:spi.c.obj
+20008e0c	86	spi_init	match:spi.c.obj
+20008e74	214	i2c_set_baudrate	match:i2c.c.obj
+20008f64	70	i2c_init	match:i2c.c.obj
+20008fbc	2	core1_trampoline	match:multicore.c.obj(neighbour)
+20008fbe	12	core1_wrapper	match:multicore.c.obj(neighbour)
+20008fca	20	multicore_fifo_push_blocking	match:multicore.c.obj
+20008fde	2	multicore_fifo_pop_blocking	via:multicore_launch_core1_raw+0x40
+20008fe2	20	FUN_20008fe2	
+20008ff4	110	multicore_launch_core1_raw	match:multicore.c.obj
+20009064	56	multicore_launch_core1_with_stack	match:multicore.c.obj
+200090b4	28	multicore_launch_core1	match:multicore.c.obj
+200090d8	60	get_dev_ep	match:hcd_rp2040.c.obj
+20009118	44	_next_free_interrupt_ep	match:hcd_rp2040.c.obj
+20009148	36	next_free_interrupt_ep	app:next_free_interrupt_ep 1.00
+20009170	122	_hw_endpoint_allocate	via:hcd_edpt_open+0xe
+20009210	144	_hw_endpoint_reinit_epx	app:_hw_endpoint_reinit_epx 1.00
+200092dc	36	hw_xfer_complete	match:hcd_rp2040.c.obj
+20009300	30	_handle_buff_status_bit	match:hcd_rp2040.c.obj
+20009324	86	hw_handle_buff_status	via:hcd_rp2040_irq+0x60
+2000938c	40	hw_trans_complete	via:hcd_rp2040_irq+0x72
+200093c8	168	hcd_rp2040_irq	match:hcd_rp2040.c.obj
+20009484	68	hcd_init	via:tuh_init+0xc6
+200094e8	22	hcd_port_reset	via:enum_get_addr0_device_desc_complete+0x1c
+2000950c	38	hcd_port_connect_status	via:enum_new_device+0x20
+20009544	56	hcd_port_speed_get	via:need_pre+0x6
+20009590	28	need_pre	match:hcd_rp2040.c.obj
+200095ac	268	_hw_endpoint_init	via:hcd_edpt_open+0x2e
+200096e0	114	hcd_device_close	via:process_device_unplugged+0xc6
+20009764	30	hcd_int_enable	via:tuh_init+0xd0
+20009790	56	hcd_edpt_open	match:hcd_rp2040.c.obj
+200097c8	298	hcd_edpt_xfer	via:usbh_edpt_xfer+0x52
+2000991c	96	hcd_setup_send	via:tuh_control_xfer+0x30
+20009998	120	prepare_ep_buffer	via:_hw_endpoint_start_next_buffer+0xa
+20009a10	106	sync_ep_buffer	via:_hw_endpoint_xfer_sync+0xa
+20009a8c	40	_hw_endpoint_xfer_sync	match:rp2040_usb.c.obj
+20009ab4	56	rp2040_usb_init	match:rp2040_usb.c.obj
+20009b00	12	hw_endpoint_reset_transfer	match:rp2040_usb.c.obj(neighbour)
+20009b0c	62	_hw_endpoint_buffer_control_update32	match:rp2040_usb.c.obj
+20009b58	102	_hw_endpoint_start_next_buffer	match:rp2040_usb.c.obj
+20009bcc	62	hw_endpoint_xfer_start	match:rp2040_usb.c.obj
+20009c14	48	hw_endpoint_xfer_continue	match:rp2040_usb.c.obj
+20009c4c	80	get_new_address	match:usbh.c.obj
+20009ca8	94	enum_hub_get_status0_complete	match:usbh.c.obj
+20009d20	74	enum_hub_get_status1_complete	match:usbh.c.obj
+20009d88	182	enum_request_set_addr	match:usbh.c.obj
+20009e60	38	enum_hub_clear_reset1_complete	match:usbh.c.obj
+20009e94	116	enum_get_device_desc_complete	match:usbh.c.obj
+20009f2c	128	enum_get_9byte_config_desc_complete	ptr:enum_get_device_desc_complete+0x80
+20009fc8	222	process_device_unplugged	match:usbh.c.obj
+2000a0b4	274	parse_configuration_descriptor	match:usbh.c.obj
+2000a1e0	90	enum_get_config_desc_complete	match:usbh.c.obj
+2000a25c	26	tuh_speed_get	match:usbh.c.obj
+2000a280	6	tuh_inited	match:usbh.c.obj(neighbour)
+2000a28c	234	tuh_init	match:usbh.c.obj
+2000a398	24	usbh_get_rhport	match:usbh.c.obj
+2000a3b8	56	usbh_edpt_control_open	match:usbh.c.obj
+2000a3f0	72	enum_request_addr0_device_desc	match:usbh.c.obj
+2000a454	102	enum_new_device	match:usbh.c.obj
+2000a4d4	282	tuh_task	match:usbh.c.obj
+2000a604	166	enum_get_addr0_device_desc_complete	match:usbh.c.obj
+2000a6cc	30	enum_hub_clear_reset0_complete	match:usbh.c.obj
+2000a6f4	162	enum_set_address_complete	match:usbh.c.obj
+2000a7c0	68	hcd_event_handler	match:usbh.c.obj
+2000a810	38	hcd_event_xfer_complete	match:usbh.c.obj
+2000a836	34	hcd_event_device_attach	match:usbh.c.obj
+2000a858	40	hcd_event_device_remove	match:usbh.c.obj
+2000a880	94	usbh_driver_set_config_complete	match:usbh.c.obj
+2000a8f4	76	enum_set_config_complete	match:usbh.c.obj
+2000a954	152	usbh_edpt_xfer	match:usbh.c.obj
+2000aa00	78	usbh_edpt_open	match:usbh.c.obj
+2000aa64	18	_xfer_complete	match:usbh_control.c.obj
+2000aa7c	78	tuh_control_xfer	match:usbh_control.c.obj
+2000aad8	138	usbh_control_xfer_cb	match:usbh_control.c.obj
+2000ab68	66	connection_port_reset_complete	match:hub.c.obj
+2000abb4	84	hub_port_clear_feature	match:hub.c.obj
+2000ac10	84	hub_port_set_feature	match:hub.c.obj
+2000ac6c	46	config_set_port_power	match:hub.c.obj
+2000acb0	110	config_port_power_complete	match:hub.c.obj
+2000ad30	12	hub_port_reset	match:hub.c.obj(neighbour)
+2000ad3c	96	connection_clear_conn_change_complete	match:hub.c.obj
+2000adac	86	hub_port_get_status	match:hub.c.obj
+2000ae0c	14	hub_init	match:hub.c.obj
+2000ae20	130	hub_open	match:hub.c.obj
+2000aeb0	32	hub_close	match:hub.c.obj
+2000aed4	22	hub_status_pipe_queue	match:hub.c.obj
+2000aef0	58	connection_get_status_complete	match:hub.c.obj
+2000af3c	68	hub_set_config	match:hub.c.obj
+2000af98	78	hub_xfer_cb	match:hub.c.obj
+2000aff8	130	config_read_capacity_complete	match:msc_host.c.obj
+2000b090	22	tuh_msc_get_block_count	match:msc_host.c.obj
+2000b0ac	20	tuh_msc_get_block_size	match:msc_host.c.obj
+2000b0c4	120	tuh_msc_scsi_command	match:msc_host.c.obj
+2000b148	88	tuh_msc_read_capacity	match:msc_host.c.obj
+2000b1ac	114	tuh_msc_inquiry	match:msc_host.c.obj
+2000b22c	78	tuh_msc_test_unit_ready	match:msc_host.c.obj
+2000b288	44	config_get_maxlun_complete	match:msc_host.c.obj
+2000b2c0	54	config_request_sense_complete	match:msc_host.c.obj
+2000b304	100	tuh_msc_request_sense	match:msc_host.c.obj
+2000b370	52	config_test_unit_ready_complete	match:msc_host.c.obj
+2000b3b8	186	tuh_msc_read10	match:msc_host.c.obj
+2000b480	180	tuh_msc_write10	match:msc_host.c.obj
+2000b540	16	msch_init	match:msc_host.c.obj
+2000b554	46	msch_close	match:msc_host.c.obj
+2000b58c	338	msch_xfer_cb	match:msc_host.c.obj
+2000b6ec	216	msch_open	match:msc_host.c.obj
+2000b7d0	142	msch_set_config	match:msc_host.c.obj
+2000b870	28	tusb_init	match:tusb.c.obj
+2000b894	14	tusb_inited	match:tusb.c.obj
+2000b8a4	156	tu_edpt_validate	match:tusb.c.obj
+2000b94c	42	tu_edpt_bind_driver	match:tusb.c.obj
+2000b976	62	tu_desc_get_interface_total_len	match:tusb.c.obj
+2000b9b4	24	advance_pointer	match:tusb_fifo.c.obj
+2000b9cc	30	backward_pointer	match:tusb_fifo.c.obj
+2000b9ea	16	get_relative_pointer	match:tusb_fifo.c.obj
+2000b9fa	80	_tu_fifo_peek	match:tusb_fifo.c.obj
+2000ba4a	66	tu_fifo_read	match:tusb_fifo.c.obj
+2000ba8c	108	tu_fifo_write	match:tusb_fifo.c.obj
+2000baf8	76	tu_fifo_clear	match:tusb_fifo.c.obj
+2000bb44	2	__aeabi_idiv0	via:divmod_s32s32_unsafe+0x24
+2000bb48	70	memcmp	match:lib_a-memcmp.o
+2000bb90	182	strchr	match:lib_a-strchr.o
+2000bc50	84	strlen	match:lib_a-strlen-stub.o
+2000bcb0	10	____get_current_exception_veneer	veneer
+2000bcc0	72	mutex_enter_blocking	match:mutex.c.obj
+2000bd08	70	mutex_try_enter	match:mutex.c.obj
+2000bd50	126	mutex_enter_block_until	match:mutex.c.obj
+2000bddc	104	mutex_enter_timeout_ms__or__recursive_mutex_enter_timeout_ms	match:mutex.c.obj(neighbour)
+2000be50	62	mutex_exit	match:mutex.c.obj
+2000be9c	66	spi_write_read_blocking	match:spi.c.obj
+2000bede	58	spi_write_blocking	match:spi.c.obj
+2000bf18	62	spi_read_blocking	match:spi.c.obj
