@@ -370,5 +370,5 @@ This is a clean-room-style analysis of firmware for hardware the author owns, fo
 interoperability. Fixel's firmware license is listed as "TBD". The reconstructed application code is derived
 from that firmware; third-party components keep their own licenses (Pico SDK: BSD-3-Clause, TinyUSB: MIT,
 FatFs: ChaN's BSD-style license). Check the legal situation where you live before redistributing builds.
-The original work in this repository (tools, scripts, patches, documentation and analysis) is under the MIT
-license; see [LICENSE](LICENSE) for what it does and does not cover.
+The original work in this repository (tools, scripts, patches, documentation and analysis) is under an
+MIT-based license that forbids commercial use; see [LICENSE](LICENSE) for what it does and does not cover.
